@@ -99,7 +99,7 @@
             @endif
             <br>
             <b>{{$lims_biller_data->company_name}}</b><br>
-            {{trans('file.Address')}}: {{$lims_warehouse_data->address}}
+            {{$lims_warehouse_data->address}}
             <br>Hp/Telp: {{$lims_warehouse_data->phone}}
         </div>
         <p>{{trans('file.Date')}}: {{$lims_sale_data->created_at}}<br>

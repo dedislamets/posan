@@ -945,7 +945,7 @@
                             <a href="{{ url('language_switch/de') }}" class="btn btn-link"> Deutsche</a>
                           </li>
                           <li>
-                            <a href="{{ url('language_switch/id') }}" class="btn btn-link"> Malay</a>
+                            <a href="{{ url('language_switch/id') }}" class="btn btn-link"> Indonesia</a>
                           </li>
                           <li>
                             <a href="{{ url('language_switch/hi') }}" class="btn btn-link"> हिंदी</a>
