@@ -911,7 +911,7 @@
                             data: $("#product-form").serialize(),
                             success:function(response){
                                 //console.log(response);
-                                location.href = '../';
+                                location.href = '../../products';
                             },
                             error:function(response) {
                                 //console.log(response);
