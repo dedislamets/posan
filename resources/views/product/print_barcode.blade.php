@@ -210,7 +210,7 @@
                 qty.push($('table.order-list tbody tr:nth-child(' + (i + 1) + ')').find('.qty').val());
                 barcode_image.push($('table.order-list tbody tr:nth-child(' + (i + 1) + ')').data('imagedata'));
             }
-            var htmltext = '<table class="barcodelist" style="width:378px;" cellpadding="5px" cellspacing="10px">';
+            var htmltext = '<table class="barcodelist" cellpadding="5px" cellspacing="10px">';
             /*$.each(qty, function(index){
                 i = 0;
                 while(i < qty[index]){
